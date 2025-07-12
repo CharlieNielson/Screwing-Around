@@ -14,9 +14,9 @@ int main() {
             twoD6[temp][1] = j;
             threeD6[temp][2] = crunch[temp];
             if (i == j) {//the values for twoD6 in the third space are much simpler
-                twoD6[temp][2] = 1;
+                twoD6[temp][2] = 6;
             } else {
-                twoD6[temp][2] = 2;
+                twoD6[temp][2] = 12;
             }
             temp++;
         }
